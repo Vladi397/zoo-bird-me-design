@@ -38,7 +38,7 @@ export function CollectionGrid() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
         {collections.map((col) => (
-          <Link to="/shop" key={col.title} className="collection-card block">
+          <Link to="/shop" key={col.title} className="collection-card group block">
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src={col.image}

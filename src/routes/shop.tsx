@@ -32,7 +32,7 @@ function ShopPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {categories.map((cat) => (
-            <div key={cat.name} className="collection-card cursor-pointer">
+            <div key={cat.name} className="collection-card group cursor-pointer">
               <div className="aspect-[3/4] overflow-hidden relative">
                 <img src={cat.image} alt={cat.name} className="w-full h-full object-cover" loading="lazy" width={800} height={1000} />
                 <div className="absolute inset-0 bg-foreground/10 group-hover:bg-foreground/20 transition-colors duration-500" />
