@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { CollectionGrid } from "@/components/CollectionGrid";
 import { StorySection } from "@/components/StorySection";
 import { NewsletterSection } from "@/components/NewsletterSection";
+import { ReviewsSection } from "@/components/ReviewsSection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -22,6 +23,7 @@ function Index() {
       <HeroSection />
       <CollectionGrid />
       <StorySection />
+      <ReviewsSection />
       <NewsletterSection />
     </main>
   );
