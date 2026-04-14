@@ -1,11 +1,18 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export function NewsletterSection() {
   const [email, setEmail] = useState("");
 
   return (
     <section className="section-padding bg-cream">
-      <div className="max-w-xl mx-auto text-center">
+      <motion.div
+        className="max-w-xl mx-auto text-center"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.7 }}
+      >
         <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-3">
           Stay Connected
         </p>
@@ -28,18 +35,21 @@ export function NewsletterSection() {
             className="flex-1 px-4 py-3 bg-background border border-border text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-foreground transition-colors"
             required
           />
-          <button
+          <motion.button
             type="submit"
             className="btn-boutique-primary whitespace-nowrap"
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
             Subscribe
-          </button>
+          </motion.button>
         </form>
 
         <p className="text-[11px] text-muted-foreground mt-4">
           We respect your inbox. Unsubscribe anytime.
         </p>
-      </div>
+      </motion.div>
     </section>
   );
 }
