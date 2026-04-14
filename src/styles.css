@@ -111,13 +111,15 @@
 
 @layer components {
   .btn-boutique {
-    @apply inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-widest uppercase transition-all duration-300 border;
+    @apply inline-flex items-center justify-center px-8 py-3 text-sm font-medium uppercase transition-all duration-300 border;
     font-family: var(--font-family-sans);
     letter-spacing: 0.15em;
   }
 
   .btn-boutique-primary {
-    @apply btn-boutique bg-primary text-primary-foreground border-primary;
+    @apply inline-flex items-center justify-center px-8 py-3 text-sm font-medium uppercase transition-all duration-300 border bg-primary text-primary-foreground border-primary;
+    font-family: var(--font-family-sans);
+    letter-spacing: 0.15em;
   }
 
   .btn-boutique-primary:hover {
@@ -125,7 +127,9 @@
   }
 
   .btn-boutique-outline {
-    @apply btn-boutique bg-transparent text-primary border-primary;
+    @apply inline-flex items-center justify-center px-8 py-3 text-sm font-medium uppercase transition-all duration-300 border bg-transparent text-primary border-primary;
+    font-family: var(--font-family-sans);
+    letter-spacing: 0.15em;
   }
 
   .btn-boutique-outline:hover {
