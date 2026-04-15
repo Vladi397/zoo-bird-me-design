@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import storefrontImg from "@/assets/storefront.jpg";
-import heroImg from "@/assets/hero-lifestyle.jpg";
+import storefrontImg from "@/assets/storefront.png";
+import interiorImg from "@/assets/interior-clothing.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -25,7 +25,7 @@ function AboutPage() {
           animate={{ scale: 1 }}
           transition={{ duration: 1.6, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          <img src={storefrontImg} alt="Fashion from Haven boutique" className="w-full h-full object-cover" width={1200} height={800} />
+          <img src={storefrontImg} alt="Fashion from Haven boutique storefront" className="w-full h-full object-cover" width={1200} height={800} />
           <div className="absolute inset-0 bg-foreground/30" />
         </motion.div>
         <motion.div
@@ -57,7 +57,7 @@ function AboutPage() {
               Every item in our collection is hand-selected for its craftsmanship, fabric quality, and timeless design. From tailored blazers to artisan leather accessories, we believe in pieces that elevate your everyday.
             </p>
             <p>
-              Our industrial-chic boutique — with its white brick walls, polished concrete floors, and warm wood accents — reflects the balance we seek in fashion: raw meets refined, modern meets classic.
+              Our boutique at Brugsstraat 13 — with its warm interior, golden shelving, and carefully styled displays — reflects the balance we seek in fashion: playful meets refined, modern meets classic.
             </p>
           </div>
         </motion.div>
@@ -70,7 +70,7 @@ function AboutPage() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.8 }}
       >
-        <img src={heroImg} alt="Fashion from Haven interior" className="w-full h-[40vh] object-cover" loading="lazy" width={1920} height={1080} />
+        <img src={interiorImg} alt="Fashion from Haven interior with clothing racks" className="w-full h-[40vh] object-cover" loading="lazy" width={1920} height={1080} />
       </motion.section>
 
       <section className="section-padding bg-secondary">
