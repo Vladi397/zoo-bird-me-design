@@ -36,10 +36,12 @@ export const Route = createRootRoute({
       { title: "Fashion from Haven — Curated Modern Style" },
       { name: "description", content: "Your haven for curated modern style. Premium womenswear, accessories, and lifestyle essentials." },
       { name: "author", content: "Fashion from Haven" },
-      { property: "og:title", content: "Fashion from Haven" },
-      { property: "og:description", content: "Your haven for curated modern style." },
+      { property: "og:title", content: "Fashion from Haven — Curated Modern Style" },
+      { property: "og:description", content: "Your haven for curated modern style. Premium womenswear, accessories, and lifestyle essentials." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Fashion from Haven — Curated Modern Style" },
+      { name: "twitter:description", content: "Your haven for curated modern style. Premium womenswear, accessories, and lifestyle essentials." },
     ],
     links: [
       {
