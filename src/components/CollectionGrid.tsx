@@ -2,26 +2,26 @@ import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import womenswearImg from "@/assets/collection-womenswear.jpg";
 import homeImg from "@/assets/collection-home.jpg";
-import babyImg from "@/assets/collection-baby.jpg";
+import shoesBagsImg from "@/assets/collection-baby.jpg";
 
 const collections = [
   {
-    title: "Womenswear & Accessories",
-    subtitle: "Effortless pieces in natural fabrics",
+    title: "New Arrivals",
+    subtitle: "The latest in effortless premium fashion",
     image: womenswearImg,
-    alt: "Curated womenswear flat-lay with sage dress and leather accessories",
+    alt: "Curated womenswear flat-lay with tailored blazer and silk blouse",
   },
   {
-    title: "Home & Lifestyle",
-    subtitle: "Artisan ceramics, textiles & objects",
+    title: "Home & Wellness",
+    subtitle: "Luxury candles, ceramics & wellness essentials",
     image: homeImg,
-    alt: "Handcrafted ceramics and woven textiles on wooden shelf",
+    alt: "Minimalist ceramics and luxury candles on wood shelving",
   },
   {
-    title: "For Baby & Kids",
-    subtitle: "Soft, organic essentials for little ones",
-    image: babyImg,
-    alt: "Organic cotton baby onesie with wooden toys and knitted blanket",
+    title: "Shoes & Bags",
+    subtitle: "Statement leather accessories for every occasion",
+    image: shoesBagsImg,
+    alt: "Premium designer shoes and leather handbags on display",
   },
 ];
 

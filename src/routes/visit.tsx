@@ -4,9 +4,9 @@ import storefrontImg from "@/assets/storefront.jpg";
 export const Route = createFileRoute("/visit")({
   head: () => ({
     meta: [
-      { title: "Visit Us — Zoo Bird And Me" },
+      { title: "Visit Us — Fashion from Haven" },
       { name: "description", content: "Find us in store. Opening hours, directions, and a peek inside our boutique." },
-      { property: "og:title", content: "Visit Us — Zoo Bird And Me" },
+      { property: "og:title", content: "Visit Us — Fashion from Haven" },
       { property: "og:description", content: "Find us in store. Opening hours and directions." },
     ],
   }),
@@ -24,7 +24,6 @@ function VisitPage() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            {/* Info */}
             <div className="space-y-8">
               <div>
                 <h3 className="font-serif text-xl font-medium text-foreground mb-3">Location</h3>
@@ -55,15 +54,14 @@ function VisitPage() {
 
               <div>
                 <h3 className="font-serif text-xl font-medium text-foreground mb-3">Contact</h3>
-                <p className="text-sm text-muted-foreground">hello@zoobirdandme.com</p>
+                <p className="text-sm text-muted-foreground">hello@fashionfromhaven.com</p>
               </div>
             </div>
 
-            {/* Image */}
             <div>
               <img
                 src={storefrontImg}
-                alt="Zoo Bird And Me boutique storefront"
+                alt="Fashion from Haven boutique storefront"
                 className="w-full h-auto object-cover"
                 loading="lazy"
                 width={1200}

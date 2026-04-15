@@ -15,7 +15,7 @@ const reviews = [
   },
   {
     name: "Marian Rooyakkers",
-    text: "Vorige week deze leuke boetiek aan de Edisonstraat voor de 1e keer een bezoek gebracht. Het is echt heaven. Lekker rustig op je gemak winkelen. Veel keuze, goed advies en leuke prijzen.",
+    text: "Vorige week deze leuke boetiek voor de 1e keer een bezoek gebracht. Het is echt heaven. Lekker rustig op je gemak winkelen. Veel keuze, goed advies en leuke prijzen.",
   },
   {
     name: "Sancha Schuurs",

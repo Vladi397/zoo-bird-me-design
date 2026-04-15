@@ -33,14 +33,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Zoo Bird And Me — Curated Goods for You + Your Baby" },
-      { name: "description", content: "Beautiful, conscious essentials for your home and family." },
-      { name: "author", content: "Zoo Bird And Me" },
-      { property: "og:title", content: "Zoo Bird And Me" },
-      { property: "og:description", content: "Curated goods for you + your baby." },
+      { title: "Fashion from Haven — Curated Modern Style" },
+      { name: "description", content: "Your haven for curated modern style. Premium womenswear, accessories, and lifestyle essentials." },
+      { name: "author", content: "Fashion from Haven" },
+      { property: "og:title", content: "Fashion from Haven" },
+      { property: "og:description", content: "Your haven for curated modern style." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
