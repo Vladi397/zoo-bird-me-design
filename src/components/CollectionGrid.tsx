@@ -1,27 +1,27 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import womenswearImg from "@/assets/collection-womenswear.png";
-import accessoriesImg from "@/assets/collection-accessories.png";
-import bagsImg from "@/assets/collection-bags.png";
+import womenswearImg from "@/assets/collection-womenswear.jpg";
+import homeImg from "@/assets/collection-home.jpg";
+import shoesBagsImg from "@/assets/collection-baby.jpg";
 
 const collections = [
   {
     title: "New Arrivals",
     subtitle: "The latest in effortless premium fashion",
     image: womenswearImg,
-    alt: "Styled mannequin with curated womenswear outfit",
+    alt: "Curated womenswear flat-lay with tailored blazer and silk blouse",
   },
   {
-    title: "Jewels & Accessories",
-    subtitle: "Handpicked jewellery, hats & hair accessories",
-    image: accessoriesImg,
-    alt: "Curated accessories display with jewellery and hair accessories",
+    title: "Home & Wellness",
+    subtitle: "Luxury candles, ceramics & wellness essentials",
+    image: homeImg,
+    alt: "Minimalist ceramics and luxury candles on wood shelving",
   },
   {
     title: "Shoes & Bags",
-    subtitle: "Statement leather bags for every occasion",
-    image: bagsImg,
-    alt: "Collection of premium cream leather handbags",
+    subtitle: "Statement leather accessories for every occasion",
+    image: shoesBagsImg,
+    alt: "Premium designer shoes and leather handbags on display",
   },
 ];
 

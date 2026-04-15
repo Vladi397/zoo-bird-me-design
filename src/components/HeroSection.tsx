@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-lifestyle.png";
+import heroImage from "@/assets/hero-lifestyle.jpg";
 
 export function HeroSection() {
   return (
@@ -13,7 +13,7 @@ export function HeroSection() {
       >
         <img
           src={heroImage}
-          alt="Fashion from Haven boutique interior with curated womenswear and accessories"
+          alt="Fashion from Haven boutique interior with curated womenswear"
           className="w-full h-full object-cover"
           width={1920}
           height={1080}

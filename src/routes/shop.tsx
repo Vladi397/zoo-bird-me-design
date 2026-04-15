@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import womenswearImg from "@/assets/collection-womenswear.png";
-import accessoriesImg from "@/assets/collection-accessories.png";
-import bagsImg from "@/assets/collection-bags.png";
+import womenswearImg from "@/assets/collection-womenswear.jpg";
+import homeImg from "@/assets/collection-home.jpg";
+import shoesBagsImg from "@/assets/collection-baby.jpg";
 
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
       { title: "Shop — Fashion from Haven" },
-      { name: "description", content: "Browse our curated collections of premium womenswear, jewels & accessories, and shoes & bags." },
+      { name: "description", content: "Browse our curated collections of premium womenswear, shoes & bags, and home & wellness essentials." },
       { property: "og:title", content: "Shop — Fashion from Haven" },
       { property: "og:description", content: "Browse our curated collections." },
     ],
@@ -17,8 +17,8 @@ export const Route = createFileRoute("/shop")({
 
 const categories = [
   { name: "New Arrivals", image: womenswearImg, count: "48 pieces" },
-  { name: "Jewels & Accessories", image: accessoriesImg, count: "32 pieces" },
-  { name: "Shoes & Bags", image: bagsImg, count: "24 pieces" },
+  { name: "Home & Wellness", image: homeImg, count: "32 pieces" },
+  { name: "Shoes & Bags", image: shoesBagsImg, count: "24 pieces" },
 ];
 
 function ShopPage() {
