@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import storefrontImg from "@/assets/storefront.jpg";
+import storefrontImg from "@/assets/storefront.png";
 
 export const Route = createFileRoute("/visit")({
   head: () => ({
@@ -61,7 +61,7 @@ function VisitPage() {
             <div>
               <img
                 src={storefrontImg}
-                alt="Fashion from Haven boutique storefront"
+                alt="Fashion from Haven boutique storefront at 13 Brugsstraat"
                 className="w-full h-auto object-cover"
                 loading="lazy"
                 width={1200}

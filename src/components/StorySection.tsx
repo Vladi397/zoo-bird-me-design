@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import storefrontImg from "@/assets/storefront.jpg";
+import storefrontImg from "@/assets/storefront.png";
 
 export function StorySection() {
   return (
@@ -15,7 +15,7 @@ export function StorySection() {
         >
           <img
             src={storefrontImg}
-            alt="Fashion from Haven boutique storefront"
+            alt="Fashion from Haven storefront at 13 Brugsstraat"
             className="w-full h-auto object-cover"
             loading="lazy"
             width={1200}
