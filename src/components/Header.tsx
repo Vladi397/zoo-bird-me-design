@@ -37,10 +37,10 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="text-center">
           <h1 className="font-serif text-xl md:text-2xl font-medium tracking-wide text-foreground">
-            Zoo Bird And Me
+            Fashion from Haven
           </h1>
           <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground mt-0.5">
-            for you + your baby
+            curated modern style
           </p>
         </Link>
 
@@ -49,14 +49,12 @@ export function Header() {
           <Link to="/visit" className="text-xs font-medium tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-300">
             Visit Us
           </Link>
-          {/* Search icon */}
           <button aria-label="Search" className="text-muted-foreground hover:text-foreground transition-colors">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <circle cx="11" cy="11" r="7" />
               <path d="M21 21l-4.35-4.35" />
             </svg>
           </button>
-          {/* Cart icon */}
           <button aria-label="Cart" className="text-muted-foreground hover:text-foreground transition-colors">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />

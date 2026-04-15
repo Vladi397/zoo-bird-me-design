@@ -8,10 +8,10 @@ import { ReviewsSection } from "@/components/ReviewsSection";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Zoo Bird And Me — Curated Goods for You + Your Baby" },
-      { name: "description", content: "Beautiful, conscious essentials for your home and family. Curated womenswear, home goods, beauty, and baby essentials." },
-      { property: "og:title", content: "Zoo Bird And Me — Curated Goods for You + Your Baby" },
-      { property: "og:description", content: "Beautiful, conscious essentials for your home and family." },
+      { title: "Fashion from Haven — Curated Modern Style" },
+      { name: "description", content: "Your haven for curated modern style. Premium womenswear, accessories, and lifestyle essentials." },
+      { property: "og:title", content: "Fashion from Haven — Curated Modern Style" },
+      { property: "og:description", content: "Your haven for curated modern style." },
     ],
   }),
   component: Index,

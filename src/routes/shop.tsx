@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import womenswearImg from "@/assets/collection-womenswear.jpg";
 import homeImg from "@/assets/collection-home.jpg";
-import babyImg from "@/assets/collection-baby.jpg";
+import shoesBagsImg from "@/assets/collection-baby.jpg";
 
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "Shop — Zoo Bird And Me" },
-      { name: "description", content: "Browse our curated collections of womenswear, home goods, beauty products, and baby essentials." },
-      { property: "og:title", content: "Shop — Zoo Bird And Me" },
+      { title: "Shop — Fashion from Haven" },
+      { name: "description", content: "Browse our curated collections of premium womenswear, shoes & bags, and home & wellness essentials." },
+      { property: "og:title", content: "Shop — Fashion from Haven" },
       { property: "og:description", content: "Browse our curated collections." },
     ],
   }),
@@ -16,9 +16,9 @@ export const Route = createFileRoute("/shop")({
 });
 
 const categories = [
-  { name: "Womenswear", image: womenswearImg, count: "48 pieces" },
-  { name: "Home & Lifestyle", image: homeImg, count: "32 pieces" },
-  { name: "Baby & Kids", image: babyImg, count: "24 pieces" },
+  { name: "New Arrivals", image: womenswearImg, count: "48 pieces" },
+  { name: "Home & Wellness", image: homeImg, count: "32 pieces" },
+  { name: "Shoes & Bags", image: shoesBagsImg, count: "24 pieces" },
 ];
 
 function ShopPage() {
